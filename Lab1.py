@@ -145,8 +145,11 @@ def main():
 
     robots= [
         Robot(150,150),
-        Robot(250,250),
-        Robot(350,350)
+        Robot(150,250),
+        Robot(150,350),
+        Robot(150,450),
+        Robot(150,550),
+        Robot(150,650)
             ]
     objs=generateObjs(5)
 
@@ -180,9 +183,13 @@ def main():
         pygame.time.delay(50)
 
         # group task completion calculation
-    end=time.time()
-    print(end-start)
+        end=time.time()
+        print(end-start)
             
 
 
 main()
+NN=[1,2,3,4,5,6]
+MM=[5,10,15]
+
+
